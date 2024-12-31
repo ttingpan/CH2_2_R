@@ -48,6 +48,8 @@ private:
 
 			data = newData;
 
+			newData = NULL;
+
 			currentCapacity = newCapacity;
 			cout << "배열의 크기가 " << newCapacity << "으로 늘어났습니다" << endl;
 		}
